@@ -170,11 +170,11 @@ public class ExtendedComboViewer extends ComboViewer {
         deco.setImage(image);
 
         // @formatter:off
-        deco.setDescriptionText("Tippe um in der Liste zu Suchen...\n" + "\n- Benutze '" + ESCAPE_CHAR
-                + "' für eine einfache Filterung:\n" + "    Groß- und Kleinschreibung wird ignoriert.\n"
-                + "    Als Platzhalter kann '*' verwendet werden.\n" + "- Benutze '" + ESCAPE_CHAR + ESCAPE_CHAR
-                + "' für eine RegEx-Filterung:\n" + "    Groß- und Kleinschreibung wird unterschieden.\n"
-                + "- Tippe 'Entf' um die Eingabe zu löschen.");
+        deco.setDescriptionText("Type to search...\n" + "\n- Use '" + ESCAPE_CHAR
+                + "' to enable substring filtering:\n" + "    Case-insensitve.\n"
+                + "    '*' can be used as a wildcard.\n" + "- Use '" + ESCAPE_CHAR + ESCAPE_CHAR
+                + "' to enable RegEx filtering:\n" + "    Case-sensitive.\n"
+                + "- Type 'Del' to reset input.");
         // @formatter:on
 
         deco.setShowOnlyOnFocus(true);
